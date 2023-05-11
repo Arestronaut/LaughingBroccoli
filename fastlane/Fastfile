@@ -1,0 +1,6 @@
+import_from_git(
+   url: 'ssh://git@scm.adesso-mobile.de:7999/ait/fastlane.git',
+   path: 'Fastfile'
+)
+
+xcversion(version: "14.2")
